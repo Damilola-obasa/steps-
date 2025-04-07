@@ -1,6 +1,6 @@
 steps:
-  - command: "one.sh"
-  - command: "two.sh"
+  - command: echo "mike"
+  - command: echo "james"
   - wait: ~
-  - command: "three.sh"
-  - command: "four.sh"
+  - command: echo "run"
+  - command: echo "back"
