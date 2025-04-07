@@ -1,1 +1,6 @@
-
+steps:
+  - command: "one.sh"
+  - command: "two.sh"
+  - wait: ~
+  - command: "three.sh"
+  - command: "four.sh"
